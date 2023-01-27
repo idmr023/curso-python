@@ -79,7 +79,6 @@
 + ```javascript 
 	console.warmn("a") /*Warning*/
 		```
-	
 ###Imprimir cada elemento de un array
 ```javascript
 function imprimirElementoxElemento(arr){
