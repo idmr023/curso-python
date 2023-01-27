@@ -75,6 +75,11 @@
 ```
 
 ##JS
++ Si en un if else queremos que se ejecute una sentencia y después no pase nada más, le colocamos return
++ ```javascript 
+	console.warmn("a") /*Warning*/
+		```
+	
 ###Imprimir cada elemento de un array
 ```javascript
 function imprimirElementoxElemento(arr){
@@ -82,7 +87,14 @@ function imprimirElementoxElemento(arr){
 		console.log(arr[i])
 	}
 }
-
-
 ```
+###Imprimir todos los elementos de un array
+```javascript
+	console.log(Object.entries(object));
+```
+
+###Var vs Let vs Const
+![](https://pbs.twimg.com/media/EeVw-DOXgAAMtKk.jpg)
+###Parámetros y argumentos de una función
+![](https://preview.redd.it/bxkz9iko0u681.png?auto=webp&s=dfcf8222d495f9c71bc5b5fb17468b33e7cba0e9)
 ----
