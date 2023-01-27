@@ -1,21 +1,25 @@
 # Datos curiosos
-
 ![](http://www.cursosgis.com/wp-content/uploads/2017/06/lenguajes_1.png)
-
-
-
 **Tabla de contenidos**
 
 [TOCM]
 
 [TOC]
 ##Programación en general
-+ Los editores de código: Se centran en `distintos lenguajes, a nivel sencillo,` se pueden potenciar con extensiones para simular IDE's
-+ Los IDE's se centran en un lenguaje a nivel de proyecto.
+###Editores de texto
++ Los editores de código: Se centran en `distintos lenguajes, a nivel sencillo.` Se pueden potenciar con extensiones para simular IDE's
++ Los IDE's se centran en `un lenguaje a nivel de proyecto.`
+### Manejo de proyectos
++ En proyectos grandes, es complicado mantener un ambiente virtual. Divide y vencerás es partir un problema difícil en partes pequeñas. Cada paquete se desarrolla a su propio ritmo (no siempre preocupándose de la compatibilidad con otros módulos). 
++ Hay tres tipos de paquetes: Externos, Modelo y de Comunicación. Entonces podemos crear en multiples ambientes en un solo proyecto.  Para esto, creamos una carpeta llamada envs y creamos tres documentos: external.yml, model.yml y comunicacion.yml.
++ Snakemake es un paquete que implementa muy bien este concepto. Es un motor de workflows . Cada paso lo ejecuta con un ambiente específico.
 ##HTML
 + El atriputo name de input hace referencia al grupo de inputs
 + El atributo for, fusiona un label con un input
 ##CSS
++ overflow-x: `establece lo que se muestra cuando el contenido desborda los bordes` izquierdo y derecho de un elemento a nivel de bloque. Puede que no sea nada, una barra de desplazamiento o el contenido adicional.
++ overscroll-behavior: `establece lo que hace un navegador cuando alcanza el límite de un área de desplazamiento`. Es un abreviatura de overscroll-behavior-x overscroll-behavior-y
++ scroll-snap-type: `establece qué tan estrictamente se aplican los puntos de snap en el contenedor de desplazamietno en caso de que haya uno.`
 ####Slide fácil:
 ```html
 <!DOCTYPE html>
@@ -70,6 +74,15 @@
 </html>
 ```
 
-#JS
+##JS
+###Imprimir cada elemento de un array
+```javascript
+function imprimirElementoxElemento(arr){
+	for(let i = 0; i < arr.length,;i++){
+		console.log(arr[i])
+	}
+}
 
+
+```
 ----
