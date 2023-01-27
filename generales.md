@@ -20,6 +20,7 @@
 + overflow-x: `establece lo que se muestra cuando el contenido desborda los bordes` izquierdo y derecho de un elemento a nivel de bloque. Puede que no sea nada, una barra de desplazamiento o el contenido adicional.
 + overscroll-behavior: `establece lo que hace un navegador cuando alcanza el límite de un área de desplazamiento`. Es un abreviatura de overscroll-behavior-x overscroll-behavior-y
 + scroll-snap-type: `establece qué tan estrictamente se aplican los puntos de snap en el contenedor de desplazamietno en caso de que haya uno.`
++ `object-fit: cover` hace que una imagen no se vea contraida, mantendrá su tamaño sin depender de nadd
 ####Slide fácil:
 ```html
 <!DOCTYPE html>
