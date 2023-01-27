@@ -98,6 +98,6 @@ function imprimirElementoxElemento(arr){
 
 ### Var vs Let vs Const
 ![](https://pbs.twimg.com/media/EeVw-DOXgAAMtKk.jpg)
-###Parámetros y argumentos de una función
+### Parámetros y argumentos de una función
 ![](https://preview.redd.it/bxkz9iko0u681.png?auto=webp&s=dfcf8222d495f9c71bc5b5fb17468b33e7cba0e9)
 ----
