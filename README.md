@@ -16,6 +16,36 @@
 + El atriputo name de input hace referencia al grupo de inputs
 + El atributo for, fusiona un label con un input
 ###CSS
+####Slide fácil:
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charest="utf-8" />
+        <title>Hello world!</title>
+    </head>
+	<style>
+        .contenedor-padre{
+            display: flex;
+            overflow-x: scroll;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: proximity;
+        }
+        .contenedor-hijo{
+            position: relative;
+            scroll-snap-align: center;
+        }
+	</style>
+    <body>
+        <h1>Slide fácil</h1>
+		<div class="contenedor-padre">
+            <div class="contenedor-hijo">
+					<p>Aquí van los contenedores con imágenes</p>
+            </div>   
+		</div>
+    </body>
+</html>
+```
 ###JS
 
 ----
