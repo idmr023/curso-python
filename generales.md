@@ -15,7 +15,7 @@
 + Snakemake es un paquete que implementa muy bien este concepto. Es un motor de workflows . Cada paso lo ejecuta con un ambiente específico.
 ##HTML
 + El atriputo name de input hace referencia al grupo de inputs
-+ El atributo for, fusiona un label con un input
++ El atributo for, fusiona un label con un input si tienen el mismo nombre
 ##CSS
 + overflow-x: `establece lo que se muestra cuando el contenido desborda los bordes` izquierdo y derecho de un elemento a nivel de bloque. Puede que no sea nada, una barra de desplazamiento o el contenido adicional.
 + overscroll-behavior: `establece lo que hace un navegador cuando alcanza el límite de un área de desplazamiento`. Es un abreviatura de overscroll-behavior-x overscroll-behavior-y
@@ -43,7 +43,7 @@
         <h1>Slide fácil</h1>
 		<div class="contenedor-padre">
             <div class="contenedor-hijo">
-				<p>Aquí van los contenedores</p>
+		<p>Aquí van los contenedores</p>
             </div>   
 		</div>
     </body>
