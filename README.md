@@ -10,7 +10,7 @@
 
 [TOC]
 ##Programación en general
-+ Los editores de código: Se centran en distintos lenguajes, a nivel sencillo, se pueden potenciar con extensiones para simular IDE's
++ Los editores de código: Se centran en `distintos lenguajes, a nivel sencillo,` se pueden potenciar con extensiones para simular IDE's
 + Los IDE's se centran en un lenguaje a nivel de proyecto.
 ##HTML
 + El atriputo name de input hace referencia al grupo de inputs
