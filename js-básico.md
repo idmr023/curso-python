@@ -11,9 +11,7 @@ var borrarLongitud = frutas.shift("Melón") //Para eliminar elementos al inicio 
 var borrarLongitud2 = frutas.splice(2,1) //Para eliminar elementos según el índice. El primer parámetro es el índice y el segundo cuantos elementos se eliminan
 var posicion = frutas.indexOf("Cereza"); //Para saber la ubicación, en el array, de un elemento
 
-
 //Recorrer arrays
-
 var articulos  = [
     { nombre: "Bici", costo: 300 }, 
     { nombre: "TV", costo: 5500 },
@@ -48,5 +46,71 @@ articulos.forEach(function(articulo){
 var articulosBaratos = articulos.some(function(articulo){
     return articulo.costo <= 700;
 });
+```
 
+#Coerción
+```javascript
+//Coerción implícita = es cuando el lenguaje nos ayuda a cambiar el tipo de valor.
+
+var a = "12";
+
+//Coerción explicita = es cuando obligamos a que cambie el tipo de valor.
+var d = Number(a);
+var e = String(a);
+```
+
+#Operador ternario
+```javascript
+var numero = 1;
+
+var resultado = numero === 1? "Sí, soy un uno" : "No, no soy un uno";
+```
+
+#For
+```javascript
+var estudiantes = ["María", "Sergio", "Rosa", "Daniel"];
+
+function saludarEstudiantes(estudiante){
+    console.log(`Hola ${estudiante}`);
+}
+
+for(var estudiante of estudiantes){
+    saludarEstudiantes(estudiante);
+}
+```
+
+#Objetos
+```javascript
+var miAuto = {
+    marca: "Toyota",
+    modelo: "Corolla",
+    ano: 2020,
+    detalle: function(){
+        console.log(`Auto ${this.modelo} ${this.ano}`);
+    }
+}
+```
+#Funciones
+```javascript
+//Declarativas. Pueden ser llamadas antes de ser declaradas
+
+function miFuncion(){
+    return 3;
+}
+
+miFuncion();
+
+//Expresivas (las funciones no tienen nombre).Van dentro de una variable
+
+var miFuncion = function(a,b){
+    return a+b;
+}
+
+miFuncion();
+
+//Ejemplos
+
+function saludarEstudiantes(estudiante){
+    console.log(`Hola ${estudiante}`);
+}
 ```
