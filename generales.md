@@ -43,7 +43,7 @@ div > p{
     color: red;
 }
 ```
-![](https://ibb.co/zPMbTr6)
+![](https://i.ibb.co/mhjtVGN/Screenshot-1.png)
 #### Slide fácil:
 ```html
 <!DOCTYPE html>
