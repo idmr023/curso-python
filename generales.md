@@ -13,17 +13,36 @@
 + En proyectos grandes, es complicado mantener un ambiente virtual. Divide y vencerás es partir un problema difícil en partes pequeñas. Cada paquete se desarrolla a su propio ritmo (no siempre preocupándose de la compatibilidad con otros módulos). 
 + Hay tres tipos de paquetes: Externos, Modelo y de Comunicación. Entonces podemos crear en multiples ambientes en un solo proyecto.  Para esto, creamos una carpeta llamada envs y creamos tres documentos: external.yml, model.yml y comunicacion.yml.
 + Snakemake es un paquete que implementa muy bien este concepto. Es un motor de workflows . Cada paso lo ejecuta con un ambiente específico.
-## HTML
-+ El atriputo name de input hace referencia al grupo de inputs
-+ El atributo for, fusiona un label con un input si tienen el mismo nombre
-+ Agrupar un input dentro de un label permite que a penas hagamos click sobre el label, haga focus en el input
-+ Usar la eitqueta de alt
-## CSS
+### HTML
++ El atriputo name de input hace referencia al grupo de input.
++ El atributo for, fusiona un label con un input si tienen el mismo nombre.
++ Agrupar un input dentro de un label permite que a penas hagamos click sobre el label, haga focus en el input-
++ Usar la eitqueta de alt.
++ Usar mediidas relativas en las fuentes ayuda al momento de querer hacer zoom o situaciones similares (% o rem).
+### CSS
 + overflow-x: `establece lo que se muestra cuando el contenido desborda los bordes` izquierdo y derecho de un elemento a nivel de bloque. Puede que no sea nada, una barra de desplazamiento o el contenido adicional.
 + overscroll-behavior: `establece lo que hace un navegador cuando alcanza el límite de un área de desplazamiento`. Es un abreviatura de overscroll-behavior-x overscroll-behavior-y
 + scroll-snap-type: `establece qué tan estrictamente se aplican los puntos de snap en el contenedor de desplazamietno en caso de que haya uno.`
 + `object-fit: cover` hace que una imagen no se vea contraida, mantendrá su tamaño sin depender de nada
 + Usar mediidas relativas en las fuentes ayuda al momento de querer hacer zoom y cosas así
++ En un elemento con display:inline no puedo usar margin ni padding arriba ni abajo, solo derecha e izquierda. Tampoco se puede aplicar width o height.
++ En un elemento con display:block el contenido del elemento toma el 100% del width, se puede usar margin y padding por todos los lados.
++ En un elemento con display:inline-block, se puede usar margin y padding por todos lados, así como darle width y height, y el contenido es del mismo tamaño que el elemento.
++ Etiquetas como p y div vienen por Default con un display:block
++ Etiquetas como span viene por Default con un display:inline
+```css
+// Todo p que tenga a un div cómo hermano adyacente, recibirá estos atributos
+ div + p {
+   color: red;
+}
+ h2 ~ p {
+ color: red;
+}
+// Toda etiqueta p que tenga como padre directo a un div, recibirá estos atributo
+div > p{
+    color: red;
+}
+```
 #### Slide fácil:
 ```html
 <!DOCTYPE html>
