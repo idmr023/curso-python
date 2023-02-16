@@ -30,6 +30,7 @@
 + En un elemento con display:inline-block, se puede usar margin y padding por todos lados, así como darle width y height, y el contenido es del mismo tamaño que el elemento.
 + Etiquetas como p y div vienen por Default con un display:block
 + Etiquetas como span viene por Default con un display:inline
++ Las declaraciones al final del documento anularán las que sucedan antes de este conflicto
 ```css
 // Todo p que tenga a un div cómo hermano adyacente, recibirá estos atributos
  div + p {
@@ -45,7 +46,6 @@ div > p{
 ```
 ![](https://i.ibb.co/mhjtVGN/Screenshot-1.png)
 ![](https://i.ibb.co/YcNrmDt/Screenshot-2.png)
-![](https://i.ibb.co/S5yCvNB/Screenshot-3.png)
 #### Slide fácil:
 ```html
 <!DOCTYPE html>
