@@ -44,6 +44,8 @@ div > p{
 }
 ```
 ![](https://i.ibb.co/mhjtVGN/Screenshot-1.png)
+![](https://i.ibb.co/YcNrmDt/Screenshot-2.png)
+![](https://i.ibb.co/S5yCvNB/Screenshot-3.png)
 #### Slide fácil:
 ```html
 <!DOCTYPE html>
